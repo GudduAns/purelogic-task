@@ -1,0 +1,92 @@
+.my-chart-wrapper {
+    border-radius: 11.236px;
+    background: #FFF;
+    box-shadow: 1.7286px 5.18579px 35.4362px 0px rgba(0, 0, 0, 0.05);
+    padding: 47px 34px 16px 45px;
+
+    .heading-wrap {
+        color: #31343D;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 25.717px;
+        margin-bottom: 28px;
+
+        .loacted-area {
+            color: #667580;
+            font-weight: 600;
+            margin-left: 4px;
+        }
+    }
+
+    .action-wrap {
+        margin-bottom: 54px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+
+        .row {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            .btn {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                border-radius: 4.321px;
+                border: 0.864px solid #A3A3C8;
+                background: #F7F7FC;
+                color: #667580;
+                padding: 9px 10px;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                cursor: pointer;
+            }
+
+            &.row2 {
+                .icons-wrap {
+                    border: 2px solid rgba(196, 198, 207, 1);
+                    border-radius: 7px;
+                    cursor: pointer;
+                    transition: all 0.3s;
+
+
+                    &:hover {
+                        background: rgba(196, 198, 207, 0.3);
+                    }
+
+                    &.active {
+                        background: #C4C6CF;
+
+                        &:hover {
+                            background: #C4C6CF;
+                        }
+                    }
+
+                    .svg-icon {
+                        -webkit-mask-image: url('../../assests/icons/line2.svg');
+                        mask-image: url('../../assests/icons/line2.svg');
+                        -webkit-mask-repeat: no-repeat;
+                        mask-repeat: no-repeat;
+                        display: block;
+                        width: 25.62px;
+                        height: 25.644px;
+                        background: #53616C;
+
+                        &.bar-icon {
+                            -webkit-mask-image: url('../../assests/icons/bar2.svg');
+                            mask-image: url('../../assests/icons/bar2.svg');
+                        }
+                    }
+                }
+
+                img {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

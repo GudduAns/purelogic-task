@@ -1,0 +1,121 @@
+.header {
+    align-items: center;
+    box-shadow: 0 1px 13px rgba(0, 0, 0, .07);
+    display: flex;
+    justify-content: space-between;
+    padding: 19.61px
+}
+
+.logo {
+    height: 22.78px;
+    margin-left: 7%;
+    position: relative;
+    width: 49.49px
+}
+
+.nav-elements {
+    align-items: center;
+    display: none;
+    font-size: 15px;
+    font-weight: 600;
+    gap: 74.12px;
+    height: 18px;
+    justify-content: center;
+    margin-left: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative
+}
+
+.pointer {
+    background: #4ba9ff;
+    border-radius: 10px;
+    height: 3px;
+    margin-top: 20px;
+    width: 40px
+}
+
+.nav-elements span:nth-child(4),
+.nav-elements span:nth-child(5) {
+    display: none
+}
+
+.language {
+    font-size: 15px;
+    font-weight: 600;
+    gap: 7.25px;
+    line-height: 18px
+}
+
+.language,
+.loginButton {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative
+}
+
+.loginButton {
+    background: #4ba9ff;
+    border-radius: 8px;
+    box-shadow: 0 1px 13px rgba(0, 0, 0, .07);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    padding: 0 5px;
+    width: 104px
+}
+
+.seperate {
+    background: linear-gradient(270deg, hsla(0, 0%, 75%, .18) .72%, #635e5e 45.95%, hsla(0, 0%, 75%, .18) 98.74%);
+    display: none;
+    height: 2px;
+    opacity: .17;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: 29px
+}
+
+.downArrow {
+    -webkit-mask-image: url('../../../assests/icons/arrowdown2.svg');
+    mask-image: url('../../../assests/icons/arrowdown2.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    display: block;
+    height: 23px;
+    width: 24px;
+    background: #667580;
+}
+
+.globeImage {
+    -webkit-mask-image: url('../../../assests/icons/global.svg');
+    mask-image: url('../../../assests/icons/global.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    display: block;
+    height: 18px;
+    width: 18px;
+    background: #667580;
+}
+
+
+@media only screen and (min-width:768px) {
+    .header {
+        padding: 19.61px 50px
+    }
+
+    .nav-elements,
+    .nav-elements span:nth-child(4),
+    .nav-elements span:nth-child(5) {
+        display: flex
+    }
+
+    .language {
+        margin-left: auto
+    }
+
+    .seperate {
+        display: block
+    }
+}

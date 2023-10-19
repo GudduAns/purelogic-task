@@ -1,0 +1,83 @@
+.popup-main-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(12, 12, 12, 0.22);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .pop-wrap {
+        max-width: 552px;
+        width: 100%;
+
+        .searchBar {
+            align-items: center;
+            border-radius: 7px;
+            color: #667580;
+            font-size: 13px;
+            font-weight: 600;
+            height: 42px;
+            line-height: 18px;
+            padding-left: 19px;
+            background: #FFF;
+            box-shadow: 0px 7px 19px 0px rgba(0, 0, 0, 0.05);
+            margin-bottom: 7px;
+
+            .searchInput {
+                border: none;
+                border-radius: 7px;
+                height: 42px;
+                margin-left: 8.21px;
+                outline: none;
+                color: #667580;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18px;
+
+
+            }
+        }
+
+        .city-wrap {
+            border-radius: 13px;
+            background: #FFF;
+            padding: 21px 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+
+            .main {
+                display: flex;
+                justify-content: space-between;
+
+
+                .city-name-wrap {
+                    display: flex;
+                    gap: 12.5px;
+
+                    .city {
+                        color: #31343D;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                }
+
+                .rating {
+                    border-radius: 5px;
+                    background: #59B61F;
+                    padding: 4px 16px;
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 19px;
+                }
+            }
+        }
+    }
+}

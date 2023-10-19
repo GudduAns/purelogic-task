@@ -1,0 +1,428 @@
+.liveTempContainer {
+    border: 1px;
+    border-color: #dddfe1;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+    height: 118px;
+    padding: 16px;
+    width: -webkit-max-content;
+    width: max-content
+}
+
+.sunIcon {
+    width: 67px;
+    height: 74px;
+    margin-left: -17px;
+    margin-top: -17px;
+    position: relative;
+}
+
+.liveTempData {
+    color: #31343d;
+    font-size: 29px;
+    font-weight: 800
+}
+
+.liveTempCelsius {
+    color: #677580;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+    margin: 2px 0px 14px 0px;
+}
+
+.liveTempText {
+    color: #677580;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    margin: 0
+}
+
+.liveTempWindDirectionText {
+    color: #31343d;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 10px
+}
+
+.liveTempRightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 30px
+}
+
+.liveTempRainPercentage {
+    color: #31343d;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 5px
+}
+
+.liveTempRainPercentageContainer {
+    align-items: center;
+    display: flex;
+    margin-left: 2px
+}
+
+.liveSunContainer {
+    align-items: center;
+    display: flex;
+    // padding-top: 36px
+}
+
+.upBetween {
+    margin-top: 24px;
+    opacity: .14000000059604645;
+    width: 47px
+}
+
+.downBetween,
+.upBetween {
+    background: linear-gradient(270deg, hsla(0, 0%, 75%, .68), #635e5e 46.15%, hsla(0, 0%, 75%, .68));
+    flex-shrink: 0;
+    height: 2px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.downBetween {
+    margin-left: 9px;
+    margin-top: 55px;
+    opacity: .10000000149011612;
+    width: 29px
+}
+
+.body {
+    background: #fff;
+    border-radius: 0 13px 13px 13px;
+    box-shadow: 2px 6px 41px rgba(0, 0, 0, .05);
+    padding-bottom: 38px;
+    position: relative;
+    top: -70px;
+    z-index: 999;
+}
+
+.top {
+    align-items: center;
+    display: flex;
+    height: 0;
+    justify-content: center;
+    left: 0;
+    margin-top: -16px;
+    padding-bottom: 33px;
+    position: absolute;
+
+    .weatherButton {
+        background: #fff;
+        border-top: 2px solid #4ba9ff;
+        color: #4ba9ff;
+        gap: 5px;
+        line-height: 21px;
+        width: 118px;
+        z-index: 3
+    }
+
+    .weather,
+    .weatherButton {
+        align-items: center;
+        border-radius: 6px 6px 0 0;
+        display: flex;
+        font-size: 15.507px;
+        font-weight: 600;
+        height: 34px;
+        justify-content: center
+    }
+
+    .weather {
+        background: #f1f1f1;
+        color: #3b3c3f;
+        left: 101px;
+        position: absolute;
+        width: 154px
+    }
+}
+
+.liveAqi {
+    color: #fff;
+    font-size: 33.5077px;
+    font-weight: 800;
+    height: 40px;
+    line-height: 40px;
+    // margin-left: 38.7px;
+    // margin-top: 46px;
+    width: 41px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+
+}
+
+.liveAqi,
+.locate {
+    display: flex;
+    justify-content: center;
+    position: absolute
+}
+
+
+.locate {
+    -webkit-margin-start: auto;
+    align-items: center;
+    border: 1px solid #4ba9ff;
+    border-radius: 5.37px;
+    gap: 4px;
+    height: 34px;
+    margin-inline-start: auto;
+    right: 12rem;
+    width: 111px
+}
+
+.cityInfo {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+
+    .wind {
+        color: #667580;
+        font-size: 16.099px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 23.002px;
+    }
+
+    .city {
+        color: #31343D;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.share {
+    -webkit-margin-start: auto;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    margin-inline-start: auto
+}
+
+.second,
+.share {
+    align-items: center;
+    display: flex
+}
+
+.second {
+    margin: 40px
+}
+
+.third-section {
+    display: flex;
+    flex-direction: row;
+    gap: 58px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.third-section-1 {
+    background: #fafafd;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    padding-left: 9px;
+
+    .img-wrapper {
+        position: relative;
+        min-width: 133.836px;
+        min-height: 98px;
+
+        .img-wrap {
+            position: absolute;
+            top: -35px;
+            width: 135.244px;
+            height: 133.836px;
+            min-height: 133.836px;
+            min-width: 135.244px;
+            max-height: 133.836px;
+            max-width: 135.244px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                min-height: 100%;
+                min-width: 100%;
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+
+        }
+    }
+
+    .border-line {
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            opacity: 0.17;
+            height: 86px;
+            width: 1px;
+            margin: auto;
+            background: linear-gradient(rgba(190, 190, 190, 0.18) 0.72%, #635E5E 45.95%, rgba(190, 190, 190, 0.18) 98.74%);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+    }
+
+    .condition {
+        color: #677580;
+        text-align: right;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20.141px;
+        margin: auto;
+        max-width: 150px;
+    }
+
+    .boy-img-wrap {
+        width: 52.265px;
+        height: 113.267px;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: -28px;
+            right: 0px;
+        }
+    }
+
+    .live {
+        .live-wrap {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+
+            p {
+                color: #667580;
+                font-family: Nunito Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+
+        .poor-text {
+            color: #59B61F;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+
+        .lastupdate-wrap {
+            span {
+                color: #859199;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+
+                &:nth-child(2) {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+.indicator-body {
+    align-items: flex-end;
+    display: flex;
+    margin-left: 45px
+}
+
+.indicator {
+    border-radius: 4.01827px 0 0 4.01827px;
+    height: 4px;
+    margin-top: 2px;
+    width: 83px
+}
+
+.arrow-down {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 9px solid #3eaa62;
+    height: 0;
+    width: 0
+}
+
+.live {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.circle1 {
+    background-color: #e75835;
+    border-radius: 50%;
+    height: 6px;
+    width: 6px
+}
+
+@media only screen and (max-width:1370px) {
+    .third-section {
+        align-items: center;
+        display: flex;
+        flex-direction: column
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .third-section-1 {
+        margin-left: 17%;
+        margin-right: 17%
+    }
+
+    .indicator {
+        width: 50px
+    }
+
+    .indicator-body {
+        margin-left: 100px
+    }
+
+    .locate {
+        margin-left: 10px
+    }
+
+    .liveAqi {
+        align-items: center;
+        color: #fff;
+        display: flex;
+        font-size: 33.5077px;
+        font-weight: 800;
+        height: 40px;
+        justify-content: center;
+        line-height: 40px;
+        margin-left: 40px;
+        margin-top: 72px;
+        position: absolute;
+        width: 41px
+    }
+}
